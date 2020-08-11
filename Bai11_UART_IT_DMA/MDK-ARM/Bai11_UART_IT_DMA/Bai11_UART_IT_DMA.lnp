@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"bai11_uart_it_dma\startup_stm32f103xb.o"
+"bai11_uart_it_dma\main.o"
+"bai11_uart_it_dma\stm32f1xx_it.o"
+"bai11_uart_it_dma\stm32f1xx_hal_msp.o"
+"bai11_uart_it_dma\stm32f1xx_hal_gpio_ex.o"
+"bai11_uart_it_dma\stm32f1xx_hal_tim.o"
+"bai11_uart_it_dma\stm32f1xx_hal_tim_ex.o"
+"bai11_uart_it_dma\stm32f1xx_hal_uart.o"
+"bai11_uart_it_dma\stm32f1xx_hal.o"
+"bai11_uart_it_dma\stm32f1xx_hal_rcc.o"
+"bai11_uart_it_dma\stm32f1xx_hal_rcc_ex.o"
+"bai11_uart_it_dma\stm32f1xx_hal_gpio.o"
+"bai11_uart_it_dma\stm32f1xx_hal_dma.o"
+"bai11_uart_it_dma\stm32f1xx_hal_cortex.o"
+"bai11_uart_it_dma\stm32f1xx_hal_pwr.o"
+"bai11_uart_it_dma\stm32f1xx_hal_flash.o"
+"bai11_uart_it_dma\stm32f1xx_hal_flash_ex.o"
+"bai11_uart_it_dma\stm32f1xx_hal_exti.o"
+"bai11_uart_it_dma\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai11_UART_IT_DMA\Bai11_UART_IT_DMA.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai11_UART_IT_DMA.map" -o Bai11_UART_IT_DMA\Bai11_UART_IT_DMA.axf

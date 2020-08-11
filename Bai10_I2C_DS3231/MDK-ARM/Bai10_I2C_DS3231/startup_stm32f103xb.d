@@ -1,0 +1,1 @@
+bai10_i2c_ds3231\startup_stm32f103xb.o: startup_stm32f103xb.s

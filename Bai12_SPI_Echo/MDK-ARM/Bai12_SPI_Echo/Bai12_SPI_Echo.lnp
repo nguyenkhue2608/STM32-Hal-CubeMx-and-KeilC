@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"bai12_spi_echo\startup_stm32f103xb.o"
+"bai12_spi_echo\main.o"
+"bai12_spi_echo\stm32f1xx_it.o"
+"bai12_spi_echo\stm32f1xx_hal_msp.o"
+"bai12_spi_echo\stm32f1xx_hal_gpio_ex.o"
+"bai12_spi_echo\stm32f1xx_hal_spi.o"
+"bai12_spi_echo\stm32f1xx_hal.o"
+"bai12_spi_echo\stm32f1xx_hal_rcc.o"
+"bai12_spi_echo\stm32f1xx_hal_rcc_ex.o"
+"bai12_spi_echo\stm32f1xx_hal_gpio.o"
+"bai12_spi_echo\stm32f1xx_hal_dma.o"
+"bai12_spi_echo\stm32f1xx_hal_cortex.o"
+"bai12_spi_echo\stm32f1xx_hal_pwr.o"
+"bai12_spi_echo\stm32f1xx_hal_flash.o"
+"bai12_spi_echo\stm32f1xx_hal_flash_ex.o"
+"bai12_spi_echo\stm32f1xx_hal_exti.o"
+"bai12_spi_echo\stm32f1xx_hal_tim.o"
+"bai12_spi_echo\stm32f1xx_hal_tim_ex.o"
+"bai12_spi_echo\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai12_SPI_Echo\Bai12_SPI_Echo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai12_SPI_Echo.map" -o Bai12_SPI_Echo\Bai12_SPI_Echo.axf

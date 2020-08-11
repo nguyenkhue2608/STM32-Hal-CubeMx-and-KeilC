@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"bai8_adc_single_cont\startup_stm32f103xb.o"
+"bai8_adc_single_cont\main.o"
+"bai8_adc_single_cont\stm32f1xx_it.o"
+"bai8_adc_single_cont\stm32f1xx_hal_msp.o"
+"bai8_adc_single_cont\stm32f1xx_hal_gpio_ex.o"
+"bai8_adc_single_cont\stm32f1xx_hal_adc.o"
+"bai8_adc_single_cont\stm32f1xx_hal_adc_ex.o"
+"bai8_adc_single_cont\stm32f1xx_hal.o"
+"bai8_adc_single_cont\stm32f1xx_hal_rcc.o"
+"bai8_adc_single_cont\stm32f1xx_hal_rcc_ex.o"
+"bai8_adc_single_cont\stm32f1xx_hal_gpio.o"
+"bai8_adc_single_cont\stm32f1xx_hal_dma.o"
+"bai8_adc_single_cont\stm32f1xx_hal_cortex.o"
+"bai8_adc_single_cont\stm32f1xx_hal_pwr.o"
+"bai8_adc_single_cont\stm32f1xx_hal_flash.o"
+"bai8_adc_single_cont\stm32f1xx_hal_flash_ex.o"
+"bai8_adc_single_cont\stm32f1xx_hal_exti.o"
+"bai8_adc_single_cont\stm32f1xx_hal_tim.o"
+"bai8_adc_single_cont\stm32f1xx_hal_tim_ex.o"
+"bai8_adc_single_cont\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai8_ADC_Single_Cont\Bai8_ADC_Single_Cont.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai8_ADC_Single_Cont.map" -o Bai8_ADC_Single_Cont\Bai8_ADC_Single_Cont.axf

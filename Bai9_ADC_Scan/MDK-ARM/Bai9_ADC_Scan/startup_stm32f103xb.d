@@ -1,0 +1,1 @@
+bai9_adc_scan\startup_stm32f103xb.o: startup_stm32f103xb.s

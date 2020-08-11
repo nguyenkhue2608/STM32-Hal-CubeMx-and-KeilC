@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"bai7_pwm\startup_stm32f103xb.o"
+"bai7_pwm\main.o"
+"bai7_pwm\stm32f1xx_it.o"
+"bai7_pwm\stm32f1xx_hal_msp.o"
+"bai7_pwm\stm32f1xx_hal_gpio_ex.o"
+"bai7_pwm\stm32f1xx_hal_tim.o"
+"bai7_pwm\stm32f1xx_hal_tim_ex.o"
+"bai7_pwm\stm32f1xx_hal.o"
+"bai7_pwm\stm32f1xx_hal_rcc.o"
+"bai7_pwm\stm32f1xx_hal_rcc_ex.o"
+"bai7_pwm\stm32f1xx_hal_gpio.o"
+"bai7_pwm\stm32f1xx_hal_dma.o"
+"bai7_pwm\stm32f1xx_hal_cortex.o"
+"bai7_pwm\stm32f1xx_hal_pwr.o"
+"bai7_pwm\stm32f1xx_hal_flash.o"
+"bai7_pwm\stm32f1xx_hal_flash_ex.o"
+"bai7_pwm\stm32f1xx_hal_exti.o"
+"bai7_pwm\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai7_PWM\Bai7_PWM.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai7_PWM.map" -o Bai7_PWM\Bai7_PWM.axf

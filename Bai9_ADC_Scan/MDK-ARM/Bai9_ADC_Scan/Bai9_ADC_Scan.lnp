@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"bai9_adc_scan\startup_stm32f103xb.o"
+"bai9_adc_scan\main.o"
+"bai9_adc_scan\stm32f1xx_it.o"
+"bai9_adc_scan\stm32f1xx_hal_msp.o"
+"bai9_adc_scan\stm32f1xx_hal_gpio_ex.o"
+"bai9_adc_scan\stm32f1xx_hal_adc.o"
+"bai9_adc_scan\stm32f1xx_hal_adc_ex.o"
+"bai9_adc_scan\stm32f1xx_hal.o"
+"bai9_adc_scan\stm32f1xx_hal_rcc.o"
+"bai9_adc_scan\stm32f1xx_hal_rcc_ex.o"
+"bai9_adc_scan\stm32f1xx_hal_gpio.o"
+"bai9_adc_scan\stm32f1xx_hal_dma.o"
+"bai9_adc_scan\stm32f1xx_hal_cortex.o"
+"bai9_adc_scan\stm32f1xx_hal_pwr.o"
+"bai9_adc_scan\stm32f1xx_hal_flash.o"
+"bai9_adc_scan\stm32f1xx_hal_flash_ex.o"
+"bai9_adc_scan\stm32f1xx_hal_exti.o"
+"bai9_adc_scan\stm32f1xx_hal_tim.o"
+"bai9_adc_scan\stm32f1xx_hal_tim_ex.o"
+"bai9_adc_scan\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai9_ADC_Scan\Bai9_ADC_Scan.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai9_ADC_Scan.map" -o Bai9_ADC_Scan\Bai9_ADC_Scan.axf

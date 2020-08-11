@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"bai6_ic_oc_tim2\startup_stm32f103xb.o"
+"bai6_ic_oc_tim2\main.o"
+"bai6_ic_oc_tim2\stm32f1xx_it.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_msp.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_gpio_ex.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_tim.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_tim_ex.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_rcc.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_rcc_ex.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_gpio.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_dma.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_cortex.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_pwr.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_flash.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_flash_ex.o"
+"bai6_ic_oc_tim2\stm32f1xx_hal_exti.o"
+"bai6_ic_oc_tim2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai6_IC_OC_Tim2\Bai6_IC_OC_Tim2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai6_IC_OC_Tim2.map" -o Bai6_IC_OC_Tim2\Bai6_IC_OC_Tim2.axf

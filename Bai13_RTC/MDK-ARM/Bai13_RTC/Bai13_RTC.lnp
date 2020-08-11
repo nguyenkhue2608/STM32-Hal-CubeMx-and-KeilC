@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"bai13_rtc\startup_stm32f103xb.o"
+"bai13_rtc\main.o"
+"bai13_rtc\stm32f1xx_it.o"
+"bai13_rtc\stm32f1xx_hal_msp.o"
+"bai13_rtc\stm32f1xx_hal_gpio_ex.o"
+"bai13_rtc\stm32f1xx_hal_rtc.o"
+"bai13_rtc\stm32f1xx_hal_rtc_ex.o"
+"bai13_rtc\stm32f1xx_hal.o"
+"bai13_rtc\stm32f1xx_hal_rcc.o"
+"bai13_rtc\stm32f1xx_hal_rcc_ex.o"
+"bai13_rtc\stm32f1xx_hal_gpio.o"
+"bai13_rtc\stm32f1xx_hal_dma.o"
+"bai13_rtc\stm32f1xx_hal_cortex.o"
+"bai13_rtc\stm32f1xx_hal_pwr.o"
+"bai13_rtc\stm32f1xx_hal_flash.o"
+"bai13_rtc\stm32f1xx_hal_flash_ex.o"
+"bai13_rtc\stm32f1xx_hal_exti.o"
+"bai13_rtc\stm32f1xx_hal_tim.o"
+"bai13_rtc\stm32f1xx_hal_tim_ex.o"
+"bai13_rtc\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai13_RTC\Bai13_RTC.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai13_RTC.map" -o Bai13_RTC\Bai13_RTC.axf
