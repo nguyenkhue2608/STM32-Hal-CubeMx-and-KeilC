@@ -18,6 +18,7 @@
 "bai13_rtc\stm32f1xx_hal_exti.o"
 "bai13_rtc\stm32f1xx_hal_tim.o"
 "bai13_rtc\stm32f1xx_hal_tim_ex.o"
+"bai13_rtc\stm32f1xx_hal_uart.o"
 "bai13_rtc\system_stm32f1xx.o"
 --library_type=microlib --strict --scatter "Bai13_RTC\Bai13_RTC.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols

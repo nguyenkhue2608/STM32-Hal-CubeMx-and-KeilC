@@ -1,6 +1,6 @@
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
-bai13_rtc\stm32f1xx_hal.o: ../Inc/stm32f1xx_hal_conf.h
+bai13_rtc\stm32f1xx_hal.o: ../Core/Inc/stm32f1xx_hal_conf.h
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
@@ -25,3 +25,4 @@ bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_fla
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
 bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
+bai13_rtc\stm32f1xx_hal.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
