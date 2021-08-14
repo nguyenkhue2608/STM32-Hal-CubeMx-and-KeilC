@@ -28,7 +28,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+uint16_t AutoReload = 50;
+uint16_t counterVal;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -117,6 +118,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+		counterVal = __HAL_TIM_GET_COUNTER(&htim2);
+		__HAL_TIM_SET_AUTORELOAD(&htim3, AutoReload);
+		AutoReload++;
+		HAL_Delay(200);
+		
   }
   /* USER CODE END 3 */
 }

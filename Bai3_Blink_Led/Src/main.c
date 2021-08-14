@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+uint8_t status;
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -43,7 +43,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t u8_Status;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -97,8 +97,14 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		u8_Status = HAL_GPIO_ReadPin(Button_GPIO_Port,Button_Pin); // doc gia tri nut nhan luu vào u8_Status
-		HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,u8_Status ); // Ghi gia tri len LED
+//		status = HAL_GPIO_ReadPin(Button_GPIO_Port,Button_Pin);//doc gia tri nut nhan
+//		HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,status);
+		if(HAL_GPIO_ReadPin(Button_GPIO_Port,Button_Pin) == 0)//dc nhan
+		{
+			while(HAL_GPIO_ReadPin(Button_GPIO_Port,Button_Pin) == 0) {}
+			status =~ status;
+			HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,status);
+		}
   }
   /* USER CODE END 3 */
 }
