@@ -1,0 +1,1 @@
+gpio_bit_band\startup_stm32f103xb.o: startup_stm32f103xb.s

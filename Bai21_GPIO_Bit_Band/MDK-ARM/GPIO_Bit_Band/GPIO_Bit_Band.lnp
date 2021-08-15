@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"gpio_bit_band\startup_stm32f103xb.o"
+"gpio_bit_band\main.o"
+"gpio_bit_band\stm32f1xx_it.o"
+"gpio_bit_band\stm32f1xx_hal_msp.o"
+"gpio_bit_band\stm32f1xx_hal_gpio_ex.o"
+"gpio_bit_band\stm32f1xx_hal_tim.o"
+"gpio_bit_band\stm32f1xx_hal_tim_ex.o"
+"gpio_bit_band\stm32f1xx_hal.o"
+"gpio_bit_band\stm32f1xx_hal_rcc.o"
+"gpio_bit_band\stm32f1xx_hal_rcc_ex.o"
+"gpio_bit_band\stm32f1xx_hal_gpio.o"
+"gpio_bit_band\stm32f1xx_hal_dma.o"
+"gpio_bit_band\stm32f1xx_hal_cortex.o"
+"gpio_bit_band\stm32f1xx_hal_pwr.o"
+"gpio_bit_band\stm32f1xx_hal_flash.o"
+"gpio_bit_band\stm32f1xx_hal_flash_ex.o"
+"gpio_bit_band\stm32f1xx_hal_exti.o"
+"gpio_bit_band\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "GPIO_Bit_Band\GPIO_Bit_Band.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GPIO_Bit_Band.map" -o GPIO_Bit_Band\GPIO_Bit_Band.axf
